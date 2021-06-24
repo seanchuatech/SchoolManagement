@@ -28,6 +28,10 @@ public class Main {
 		
 		School ghz = new School(teacherList, studentList);
 		
+		Teacher megan = new Teacher(4, "Megan", 1000);
+		
+		ghz.addTeacher(megan);
+		
 		tamara.payFees(2000);
 		laura.payFees(5000);
 		System.out.println("Earned: $" + ghz.getTotalMoneyEarned());
@@ -42,6 +46,7 @@ public class Main {
 		System.out.println(john);
 		System.out.println(sean);
 		System.out.println(leonard);
+		System.out.println(megan);
 		
 	}
 
